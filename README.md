@@ -2,7 +2,7 @@
 
 A simple blog viewer application built with **Next.js**. It demonstrates routing, dynamic routes, authentication using **Kinde Auth**, and data fetching with **Axios**.
 
-Live Demo: [www.something.com](http://www.something.com)
+Live Demo: [https://verse-voice-next.vercel.app](https://verse-voice-next.vercel.app)
 
 ## Features
 
