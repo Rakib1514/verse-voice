@@ -10,7 +10,7 @@ export default async function Home() {
         <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold my-6 text-center">
           Blog Entries
         </h2>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6">
           {allPost.map((post) => (
             <div
               key={post.id}
