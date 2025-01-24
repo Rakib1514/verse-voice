@@ -11,8 +11,8 @@ export default async function Post({ params }) {
 
   return (
     <div className="px-4">
-      <div className="max-w-2xl min-h-96 border border-gray-300 mx-auto p-4 space-y-2 bg-gray-800 bg-opacity-50">
-        <h2 className="capitalize font-semibold lg:text-4xl md:text-3xl text-xl ">
+      <div className="details-page-container">
+        <h2 className="detail-heading">
           {post.title}
         </h2>
         <p>Posted By: {post.userId}</p>

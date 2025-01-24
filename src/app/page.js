@@ -7,14 +7,14 @@ export default async function Home() {
   return (
     <div className="min-h-screen">
       <div className="w-11/12 mx-auto">
-        <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold my-6 text-center">
+        <h2 className="page-heading">
           Blog Entries
         </h2>
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6">
+        <div className="grid-container">
           {allPost.map((post) => (
             <div
               key={post.id}
-              className="min-h-44 p-4 border border-gray-200 rounded-sm flex flex-col justify-between bg-gray-800 bg-opacity-45"
+              className="card-container"
             >
               <h4 className="capitalize font-semibold mb-10">{post.title}</h4>
               <div>
